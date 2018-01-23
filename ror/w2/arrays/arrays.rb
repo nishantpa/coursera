@@ -23,7 +23,7 @@ p string_array[1..5]
 p string_array.join(' | ')
 
 
-### Basic data structures can be implemented using arrays
+##### Basic data structures can be implemented using arrays
 
 # Implement a stack. Pushing preferred
 stack = []; stack << :trulia; stack.push("CNBC")
@@ -46,3 +46,20 @@ p unruly_Array.sample(3)
 # also dangerous. Use cautiously. 
 unruly_Array[12] = "Here ya go"
 p unruly_Array
+
+
+##### Array processing info
+
+# One way of iterating over the array
+simple_stuff = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+simple_stuff.each { |elem| puts elem }
+
+# You can filter from an array in an easy way. API is powerful
+p simple_stuff.select { |elem| elem > 4 }
+
+# You can combine and produce new results as expected. Almost like magic
+p simple_stuff.select { |elem| elem > 3 } .reject { |elem| elem.odd? }
+
+# Performing an operation on the entire array is done with maps
+new_arr = simple_stuff.map { |elem| elem %2 }
+p new_arr
