@@ -5,7 +5,8 @@ Current courses:
 Ruby on Rails: An Introduction
 
 Pending: 
-  Ruby on Rails Web Development Specialization 
-  cs50.tv
-  TBA
+  - Ruby on Rails Web Development Specialization 
+  - cs50.tv
+  - Intro to Cybersecurity Specialization
+  - TBA
   
