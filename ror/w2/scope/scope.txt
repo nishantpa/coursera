@@ -1,0 +1,11 @@
+24 Jan 2018
+Scope in Ruby
+https://github.com/jhu-ep-coursera/fullstack-course1-module2/tree/master/Lecture13-Scope
+
+Ruby's rules on scope is what you would expect in a well defined language. There are
+some oddities, like mutable Constants in certain situations. Values can be double 
+declared and you can find a way to treat certain duplicate variables as local. These
+show you what's possible in terms of scopes, but with good coding practices, it 
+shouldn't be a point you'd think about for more than a second. 
+
+If you want to see scope work, check out the URL above.
